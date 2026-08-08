@@ -324,12 +324,6 @@ export default function App() {
                 <img
                   src="/privacy.png"
                   alt="Scenic Journey of Excellence"
-                  referrerPolicy="no-referrer"
-                  onError={(e) => {
-                    const img = e.currentTarget;
-                    img.onerror = null;
-                    img.src = '/privacy.png';
-                  }}
                   className="w-full h-full object-cover opacity-35"
                 />
                 {/* Rich gradients to seamlessly blend the scene into black containers */}
