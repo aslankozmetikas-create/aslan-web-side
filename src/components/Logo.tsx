@@ -8,8 +8,9 @@ interface LogoProps {
 }
 
 const LOGO_SOURCES = [
+  '/aslan-logo.png',
   '/aslan-logo-11.png',
-  '/aslan-logo.png'
+  '/aslan-88.png'
 ];
 
 export default function Logo({ className = "w-[180px] h-auto", showSubtitle = true, onClick, style }: LogoProps) {
