@@ -81,9 +81,15 @@ export default function Footer({ language, onNavigateToSection, onLogoClick }: F
               showSubtitle={false} 
               onClick={onLogoClick || handleScrollToTop}
             />
-            <span className="text-[8px] sm:text-[9px] text-neutral-400 tracking-[0.08em] uppercase font-sans mt-3 font-light block leading-relaxed max-w-[260px] px-2">
+            <span className="text-[8px] sm:text-[9px] text-neutral-400 tracking-[0.08em] uppercase font-sans mt-3 font-light block leading-relaxed max-w-[280px] px-2">
               ASLAN INTERNATIONAL DIS TICARET GIDA KOZMETIK ANONIM SIRKETI
             </span>
+            <a
+              href="tel:+905550006462"
+              className="text-[11px] text-amber-400/90 hover:text-amber-400 tracking-[0.12em] font-sans mt-2.5 block transition-colors"
+            >
+              00905550006462
+            </a>
             <span className="text-[9px] text-neutral-500 tracking-[0.2em] uppercase font-sans mt-2 font-light block">
               {isRtl ? 'الريادة والتميز الصناعي' : 'Pioneering Industrial Mastery'}
             </span>

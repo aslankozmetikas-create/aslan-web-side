@@ -249,7 +249,7 @@ export default function BrandProjectModal({ isOpen, onClose, language }: BrandPr
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="+90 555 000 0000"
+                      placeholder="00905550006462"
                       className="w-full bg-zinc-900/80 border border-white/15 px-4 py-3 text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-amber-400 transition-colors"
                     />
                   </div>
