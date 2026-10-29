@@ -78,10 +78,13 @@ export default function Footer({ language, onNavigateToSection, onLogoClick }: F
           <div className="md:col-span-4 flex flex-col items-center justify-center text-center self-center py-6 md:py-0 border-y md:border-y-0 md:border-x border-white/5">
             <Logo 
               className="w-[162px] h-auto text-neutral-400 group-hover:text-amber-400" 
-              showSubtitle={true} 
+              showSubtitle={false} 
               onClick={onLogoClick || handleScrollToTop}
             />
-            <span className="text-[9px] text-neutral-500 tracking-[0.2em] uppercase font-sans mt-2.5 font-light block">
+            <span className="text-[8px] sm:text-[9px] text-neutral-400 tracking-[0.08em] uppercase font-sans mt-3 font-light block leading-relaxed max-w-[260px] px-2">
+              ASLAN INTERNATIONAL DIS TICARET GIDA KOZMETIK ANONIM SIRKETI
+            </span>
+            <span className="text-[9px] text-neutral-500 tracking-[0.2em] uppercase font-sans mt-2 font-light block">
               {isRtl ? 'الريادة والتميز الصناعي' : 'Pioneering Industrial Mastery'}
             </span>
           </div>
@@ -113,9 +116,12 @@ export default function Footer({ language, onNavigateToSection, onLogoClick }: F
               <a href="mailto:aslankozmetikas@gmail.com" className="text-xs text-neutral-400 hover:text-amber-400 transition-colors break-words">
                 aslankozmetikas@gmail.com
               </a>
-              <span className="text-[10px] text-neutral-500 tracking-wider">
-                T: +90 212 555 4500
-              </span>
+              <a
+                href="tel:+905550006462"
+                className="text-[10px] text-neutral-400 hover:text-amber-400 tracking-wider transition-colors"
+              >
+                T: 00905550006462
+              </a>
             </div>
           </div>
 
